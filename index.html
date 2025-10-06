@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>blogejericiocompl</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <header class="header-principal">
+    <div class="header-logo">
+        <img src="https://static.vecteezy.com/system/resources/previews/001/208/432/non_2x/airplane-png.png" alt="Logo de la página" class="logo-img" width=50>
+        <h1>Mi Blog de Viajes</h1>
+    </div>
+    <nav class="header-nav">
+        <a href="#seccion-inicio">Inicio</a>
+        <a href="#seccion-quienes-somos">Quiénes Somos</a>
+        <a href="#seccion-destinos">Destinos</a>
+        <a href="#seccion-contacto">Contacto</a>
+    </nav>
+</header>
+
+    <section id="seccion-inicio">
+      <p id="textodeinicio">Bienvenidos a nuestro sitio oficial donde te contaremos todos nuestros conocimientos sobre viajes, para que elijas tu destino soñado</p>
+        <img src="https://img.freepik.com/foto-gratis/mujeres-turistas-mano-tienen-feliz-mapa-viaje_1150-7411.jpg" alt="Bienvenida" style="width:100%; max-width: 600px;">
+    </section>
+
+    <section id="seccion-quienes-somos">
+      <img src="https://media.revistagq.com/photos/5ed5285ef95b900ced636e6d/1:1/w_4016,h_4016,c_limit/GettyImages-619394704.jpg" style="width:100%; max-width: 900px; height: 600px;">  
+      <div>
+        <h2 id="textotiulo1">Quiénes Somos</h2>
+        <p id="texto1">Somos un equipo de exploradores dedicados a compartir las mejores rutas de viaje, aquí compartiremos nuestras experiencias, anécdotas, y mucho más para que puedas elegir tu próximo destino, igual no esperes a que te lo contemos, animate a viajar, y conocer el mundo.</p>
+      </div>
+        <!-- Aquí puedes añadir el contenido de la Clase 4 (Flexbox) -->
+    </section>
+
+<section id="seccion-destinos">
+    <img src="https://e01-elmundo.uecdn.es/assets/multimedia/imagenes/2024/06/20/17188882853964.jpg" />
+  <div class="texto-superpuesto">
+    <h1>Conocé nuestros destinos</h1>
+    <p>Cada semana en nuestras redes, actualizaremos nuestras experiencias para que puedas estar inmerso en cada lugar que visitamos</p>
+</section>
+
+    <section id="seccion-contacto">
+        <p id="mensajedecontacto">¡Contáctanos para planificar tu próxima aventura!</p>
+        <form action="/enviar_formulario.php" method="post" class="formularsito">
+  <fieldset>
+    <legend>Formulario de Contacto</legend>
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="apellido">Apellido:</label><br>
+    <input type="text" id="apellido" name="apellido" required><br><br>
+    
+    <label for="telefono">Teléfono:</label><br>
+    <input type="tel" id="telefono" name="telefono"><br><br>
+    
+    <label for="correo">Correo Electrónico:</label><br>
+    <input type="email" id="correo" name="correo" required><br><br>
+    
+    <label for="pais">País:</label><br>
+    <input type="text" id="pais" name="pais"><br><br>
+    
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+    
+    <input type="submit" value="Enviar">
+  </fieldset>
+</form>
+    </section>
+
+<footer class="footer-principal">
+    <div class="footer-info">
+        <h3>Mi Blog de Viajes</h3>
+        <p>Creado por el equipo de "Exploradores Web": Juan, María y Sofía.</p>
+    </div>
+  
+    <div class="footer-social">
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/2048px-2023_Facebook_icon.svg.png" alt="Icono de Facebook" class="social-icon">
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Icono de Instagram" class="social-icon">
+        </a>
+        <a href="https://www.x.com" target="_blank">
+            <img src="https://lh4.googleusercontent.com/HHGkKMOEJL8l3Y7maTHaQuNKS_qNKSePWHxYIMYnP0-RLew0FzWaswcFUJZ4hyHQbFY2Hep7iXaPKaALiFoNLxmF4s27GwacJQnCRDjO8MR1eOb6o2mxMXE1KR6h0soIKAp5FxXDJKVMoWbityIm8rY" alt="Icono de X" class="social-icon">
+        </a>
+    </div>
+    <div class="footer-enlaces">
+        <a href="#">Política de privacidad</a> |
+        <a href="#">Términos de servicio</a>
+    </div>
+</footer>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>

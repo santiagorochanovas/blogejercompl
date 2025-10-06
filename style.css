@@ -1,0 +1,144 @@
+body {
+  background-color: #d6993e;
+}
+
+.header-principal {
+  background-color: #10595e;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo h1 {
+  margin: 0;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.header-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-principal {
+  background-color: #10595e;
+  color: white;
+  padding: 30px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-info,
+.footer-social,
+.footer-enlaces {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footer-social a {
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.footer-enlaces a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-icon {
+  border-radius: 5px;
+  width: 30px;
+}
+
+#seccion-inicio{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  background: linear-gradient(#023D54, #ffff66);
+}
+
+
+#textodeinicio{
+  font-size: 40px;
+  text-align: center;
+}
+
+#seccion-quienes-somos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  background-image: url("https://img.freepik.com/fotos-premium/desenfoque-fondo-viaje-pie-calle_39086-3.jpg?w=360");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+#textotiulo1{
+  text-align: center;
+  font-size: 40px;
+  color: #e2257d;
+}
+
+#texto1{
+  font-size: 20px;
+  text-align: center;
+}
+
+#seccion-destinos {
+  position: relative;
+  display: inline-block;
+}
+
+#seccion-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  background-color: white;
+}
+
+#seccion-destinos img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  display: block; /* Elimina el espacio extra debajo de la imagen */
+}
+
+#mensajedecontacto{
+  font-size:40px;
+  text-align: center;
+}
+
+.texto-superpuesto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Color del texto */
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejor legibilidad */
+}
+
+.formularsito{
+  background-color: #A66F0F;
+}
+
+legend{
+  text-align:center;
+}
